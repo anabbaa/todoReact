@@ -22,6 +22,7 @@ function App() {
       });
     });
   };
+
   // React Fragments allow you to wrap multiple elements without adding an extra node to the DOM. This can be useful when rendering multiple child elements/components in a single parent component.
   return (
     <React.Fragment>

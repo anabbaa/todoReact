@@ -13,7 +13,8 @@ const List = (props) => {
     //console.log(uuidv4());
     if (userInput.length) {//input.length inorder to dont have array for emty input when its 0 its false
   props.setList((prevState)=>
-  [...prevState,{id: uuidv4(), title: userInput.trim(), done: false
+  [...prevState,{id: uuidv4(), title: userInput.trim(),  done: false
+  
 
   },]);
 
@@ -32,4 +33,3 @@ const List = (props) => {
 };
 
 export default List;
-

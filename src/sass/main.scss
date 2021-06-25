@@ -30,12 +30,19 @@ form{
 }
 .Icon{
     color: red;
-    font-size: 3rem;
+    font-size: 2rem;
+    position: relative;
+    left: 8.5vw;
+    height: 4vh;
+    width: 8vw;
+    float: right;
+
 }
-ul{
+li{
     font-size: 3rem;
     color: red;
 }
+
 input{
     position: relative;
     top: -0.5vh;
@@ -44,4 +51,9 @@ h4{
     position: relative;
     top: 77vh;
     left: 12vw;
+}
+
+
+.opaci{
+    color: blue
 }
