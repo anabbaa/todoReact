@@ -1,7 +1,19 @@
-import React  from "react";
+import React, {useState, useEffect} from "react";
 const Todo = (props) => {
 
+  const colorgen = ()=>{
+    let colors = "#";
+    let colorCode = "0123456789abcdef";
+    for (let i =1; i <= 6; i++){
+      colors += colorCode[Math.floor(Math.random() * colorCode.length)];
+    }
+    return colors;
+  };
+
   
+
+
+
   
     // here we are mapping over the todos array - the idea is check if the todo.id matches the id we pass into the function
     // if the id's match, use the second parameter to pass in the updated todo object
@@ -12,9 +24,14 @@ const Todo = (props) => {
     // update the todos state with the updated todo
     
   
-  const userTodos = props.list.map((toDo, i) => (
+  const userTodos = props.list.map((toDo, i ) => (
   
-    <li key={i} className="todo">
+    <li style={
+      i ={
+        color:colorgen()
+      }
+    } key={i} >
+      
       <input
         type="checkbox"
         defaultChecked={toDo.done}
@@ -29,6 +46,7 @@ const Todo = (props) => {
       
     
       {toDo.id === props.updatedTodo.id? props.updatedTodo.title: toDo.title} 
+      
       <button className="Icon"
         onClick={() => {
           console.log(toDo.id);
@@ -37,13 +55,14 @@ const Todo = (props) => {
       >
         Delete
       </button>
-      <button className="Icon"
+      <button className="IconEdit"
         onClick={()=>{
         props.edit(toDo)
         }}
       >
         Edit
       </button>
+      
     
     </li>
      
