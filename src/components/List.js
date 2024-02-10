@@ -72,7 +72,6 @@ function handleUpdateTodo(id, updatedTodo){
       <input className="add" type="submit" value="Add"/>
     </form>)
 }
-  
     </div>
   );
 };

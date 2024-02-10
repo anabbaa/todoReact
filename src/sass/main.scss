@@ -3,13 +3,14 @@ body{
     justify-content: center;
     align-items: flex-start;
     // flex-direction: column;
-    background-color: yellow;
-    
-}
+    background-color: rgb(65, 127, 59);
+    width: 100vw;
+
 .formMain{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80vw;
 }
 .text{
     height: 3vh;
@@ -21,10 +22,6 @@ body{
     width: 29vw;
     margin-right: 1vw;
 }
-
-
-
-
 
 .add{
     width: 30%;
@@ -55,31 +52,41 @@ body{
     font-size: 2rem;
     height: 5vh;
     width: auto;
-    float: right;
-    margin-top: 2vh;
 }
+
 li{
     font-size: 3rem;
-    width: auto;
+    border: 1px solid black;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    flex-direction: row;
 }
+.todoFather{
+    border: 1px solid red;
+    max-width: 80%;
+
+}
+.editDeleteFather{
+    border: 1px solid blue;
+    width: 20vw;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
 .h1Father{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-input{
-    position: relative;
-    top: -0.5vh;
-}
-button{
-    margin-left: 1vh;
-}
 .footer{
 display: flex;
 justify-content: center;
 align-items: flex-end;
 position: relative;
 top: 55vh;
+}
 }
