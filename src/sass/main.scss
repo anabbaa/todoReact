@@ -2,15 +2,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    // flex-direction: column;
     background-color: rgb(65, 127, 59);
-    width: 100vw;
-
+    width: 98vw;
 .formMain{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80vw;
+
 }
 .text{
     height: 3vh;
@@ -54,22 +53,22 @@ body{
     width: auto;
 }
 
+
 li{
     font-size: 3rem;
-    border: 1px solid black;
-    width: 80vw;
+    max-width: 70vw;
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
     flex-direction: row;
 }
 .todoFather{
-    border: 1px solid red;
-    max-width: 80%;
+    max-width: 50vw;
+    height: auto;
+    word-break: break-word;
 
 }
 .editDeleteFather{
-    border: 1px solid blue;
     width: 20vw;
     justify-content: flex-end;
     flex-direction: row;
