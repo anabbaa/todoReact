@@ -1,7 +1,7 @@
 
 ## Todo React ##
 
-![image](https://github.com/anabbaa/todoReact/assets/75792585/5c14d84b-4cd2-4b2c-b2ef-1ad5dc97f260)
+![Screenshot (144)](https://github.com/anabbaa/todoReact/assets/75792585/4dc7513d-dfba-491d-b462-e32c940e3fa1)
 
 
 
